@@ -450,7 +450,7 @@ line-height:1.7;
 
 .ctl-avatar{
   flex:0 0 var(--ctl-l-avatar);
-   width: 80px;
+  width: var(--ctl-l-avatar);
    overflow:hidden;
 /*  -webkit-mask-image:linear-gradient(to right, transparent 0%, rgba(0,0,0,.55) 30%, #000 60%);
           mask-image:linear-gradient(to right, transparent 0%, rgba(0,0,0,.55) 30%, #000 60%); */
