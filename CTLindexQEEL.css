@@ -404,10 +404,21 @@ line-height:1.7;
 .ctl-sousforums > a:last-child{margin-bottom:auto;}
 
 .ctl-sousforums a{
-  flex:0 0 auto;display:block;background:var(--neutralDarker);border-radius:5px;
-  padding:4px 13px;font-size:9.5px;font-weight:700;letter-spacing:.6px;
-  text-transform:uppercase;color:var(--contrast);text-decoration:none;
-  text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  flex:0 0 auto;
+   display:block;
+   background:var(--neutralDarker);
+   border-radius:5px;
+  padding:5px 4px;
+   font-size:10px;
+   font-weight:700;
+   letter-spacing:.4px;
+  text-transform:uppercase;
+   color:var(--contrast);
+   text-decoration:none;
+  text-align:center;
+   /* white-space:nowrap; */
+   overflow:hidden;
+   text-overflow:ellipsis;
 }
 
 .ctl-sousforums a:hover{background:var(--accentClr);color:var(--neutral);}
