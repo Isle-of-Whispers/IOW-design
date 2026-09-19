@@ -96,7 +96,7 @@ const LIEUX = [
 
 /* nord de l'île */
   { nom: "L'îlot aux fées", cat: "Petite île", x: 32.7, y: 15.0,
-    images: ["https://i.pinimg.com/1200x/ce/28/89/ce288989a3040d34e780799e4d751206.jpg",
+    images: ["https://i.pinimg.com/1200x/b1/39/48/b139486dac765bf60e7f0a43d3d04d2b.jpg",
 "https://i.pinimg.com/1200x/03/04/26/030426ec5cb6e6977ba653b7835948fd.jpg"], texte: "Bien que difficile d'accès en dehors des marées basses ou d'une traversée en kayak, le site attire les curieux pour son atmosphère féerique : des lièvres peu farouches y gambadent sans craindre l'humain, tandis que des oiseaux aux plumages rares viennent s'y abriter du vent. Le folklore local affirme que l'îlot est le refuge des fées.", lien: null },
   { nom: "Phare Sirius", cat: "Nord de l'île", x: 46.4, y: 10.3,
     images: ["https://i.pinimg.com/1200x/bb/21/42/bb2142ba856ea24b6a3a8dd49de2809a.jpg",
