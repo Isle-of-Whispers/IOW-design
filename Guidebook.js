@@ -95,11 +95,12 @@ const LIEUX = [
 "https://i.pinimg.com/236x/4d/d6/4e/4dd64e251221877fa9f274cdc3f73e50.jpg"], texte: "Grande zone marchande périphérique déployée autour de vastes parkings, elle réunit la galerie couverte des enseignes nationales, l'hypermarché de l'île et les fast-foods franchisés comme McDonald's ou Burger King. ", lien: null },
 
 /* nord de l'île */
-  { nom: "Lieu 02", cat: "", x: 32.7, y: 15.0,
-    images: [], texte: "île en forme de coeur où la faune vient souvent se reposer", lien: null },
+  { nom: "L'îlot aux fées", cat: "Petite île", x: 32.7, y: 15.0,
+    images: ["https://i.pinimg.com/1200x/ce/28/89/ce288989a3040d34e780799e4d751206.jpg",
+"https://i.pinimg.com/1200x/03/04/26/030426ec5cb6e6977ba653b7835948fd.jpg"], texte: "Bien que difficile d'accès en dehors des marées basses ou d'une traversée en kayak, le site attire les curieux pour son atmosphère féerique : des lièvres peu farouches y gambadent sans craindre l'humain, tandis que des oiseaux aux plumages rares viennent s'y abriter du vent. Le folklore local affirme que l'îlot est le refuge des fées.", lien: null },
   { nom: "Phare Sirius", cat: "Nord de l'île", x: 46.4, y: 10.3,
     images: ["https://i.pinimg.com/1200x/bb/21/42/bb2142ba856ea24b6a3a8dd49de2809a.jpg",
-"https://i.pinimg.com/736x/fc/5c/e5/fc5ce5a2373bbdb9777a7ec0542cfd09.jpg"], texte: "Paraît qu'il a joué un grand rôle dans la 1e guerre mondiale et qu'il est hanté.", lien: null },
+"https://i.pinimg.com/736x/fc/5c/e5/fc5ce5a2373bbdb9777a7ec0542cfd09.jpg"], texte: "Tour massive en granit blanc juchée à la pointe septentrionale de l'île, ce phare centenaire est aujourd'hui désaffecté. Réputé très lourdement hanté par harpies et sirènes selon les histoires locales. Ses quartiers de gardien restent condamnés par des grilles rouillées et personne n'ose y passer la nuit.", lien: null },
   { nom: "lieu 03", cat: "", x: 78.6, y: 20.0,
     images: [], texte: " petite cascade ?", lien: null },
   { nom: "Lieu 04", cat: "", x: 51.2, y: 20.5,
@@ -123,10 +124,13 @@ const LIEUX = [
 /* sud de l'île */
   { nom: "Port commercial", cat: "Gros bateaux", x: 20.5, y: 85.7,
     images: ["https://i.pinimg.com/736x/6e/e2/a4/6ee2a47a9f6238d54d794ab5b993a3e3.jpg",
-"https://i.pinimg.com/736x/c9/fb/e1/c9fbe1adf79627be56382d5f4e419244.jpg"], texte: "Peu touristique, mais c'est là que toute la zone industrielle se trouve ainsi que beaucoup d'emplois de l'île.", lien: null },
+"https://i.pinimg.com/736x/c9/fb/e1/c9fbe1adf79627be56382d5f4e419244.jpg"], texte: "Ce secteur utilitaire regroupe les activités logistiques et le stockage de l'île. Les terre-pleins accueillent les dépôts de matières premières du BTP, ainsi qu'un atelier de mécanique et réparation navale pour caréner les coques.", lien: null },
   { nom: "Phare Liberté", cat: "Phare hanté", x: 7.0, y: 96.6,
     images: ["https://i.pinimg.com/1200x/ed/1b/70/ed1b706189e81667f8910790ee2d1c39.jpg",
-  "https://i.pinimg.com/1200x/f8/37/59/f83759305ac9bac715a9eabeb6617268.jpg"], texte: "Le phare Sirius est un emblème de l'île. Tout premier phare érigé avant même que Nemeton Creek ne soit fondée.", lien: null },
+  "https://i.pinimg.com/1200x/f8/37/59/f83759305ac9bac715a9eabeb6617268.jpg"], texte: "Dressée à la pointe méridionale face aux récifs du grand chenal, cette imposante tour blanche en pierre de taille reste en activité manuelle permanente.", lien: null },
+  { nom: "Judgement Bay", cat: "Lieu historique", x: 35.6, y: 68.0,
+    images: ["https://i.pinimg.com/1200x/92/e7/d1/92e7d11e61a39535573317db6c6c5c23.jpg",
+"https://i.pinimg.com/1200x/c2/d2/15/c2d215618bf35446660b806b6ead5a6a.jpg"], texte: "Bordée de falaises sombres et de galets noirs, cette vaste anse de marée est le site historique où furent suppliciés les insulaires accusés d'hérésie lors de la purge de 1400. Autrefois crainte et évitée par les pêcheurs, la crique est aujourd'hui une étape incontournable du tourisme local.", lien: null },
 
 
 /* est de l'île */
