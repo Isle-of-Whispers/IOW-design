@@ -101,26 +101,26 @@ const LIEUX = [
   { nom: "Phare Sirius", cat: "Nord de l'île", x: 46.4, y: 10.3,
     images: ["https://i.pinimg.com/1200x/bb/21/42/bb2142ba856ea24b6a3a8dd49de2809a.jpg",
 "https://i.pinimg.com/736x/fc/5c/e5/fc5ce5a2373bbdb9777a7ec0542cfd09.jpg"], texte: "Tour massive en granit blanc juchée à la pointe septentrionale de l'île, ce phare centenaire est aujourd'hui désaffecté. Réputé très lourdement hanté par harpies et sirènes selon les histoires locales. Ses quartiers de gardien restent condamnés par des grilles rouillées et personne n'ose y passer la nuit.", lien: null },
-  { nom: "Lac Feufollet", cat: "Lac", x: 78.6, y: 20.0,
-    images: ["https://i.pinimg.com/1200x/7c/be/46/7cbe467cb9b4c74818e1ec932039f04c.jpg",
-"https://i.pinimg.com/1200x/d4/22/07/d42207e27b787b41671cef781de9b2a0.jpg"], texte: "lac avec petite cascade qui vient de la montagne", lien: null },
-  { nom: "Hameau", cat: "Hameau", x: 51.2, y: 20.5,
+  { nom: "Hameau des Hautes-Granges", cat: "Hameau", x: 51.2, y: 20.5,
     images: ["https://i.pinimg.com/1200x/51/36/e7/5136e7e1dd7a376f9a434009a956c302.jpg",
-"https://i.pinimg.com/736x/68/94/43/6894433f6171586f8b83d56a547aea43.jpg"], texte: "j'aurais pu écrire chameau.", lien: null },
+"https://i.pinimg.com/736x/68/94/43/6894433f6171586f8b83d56a547aea43.jpg"], texte: "Accroché aux crêtes herbeuses, ce groupe de bâtisses en granit abrite l'unique élevage ovin laitier du secteur. Les exploitants y fabriquent une tomme de brebis salée à la cendre et des faisselles vendues directement sur le pas de porte, à côté de cageots de pommes de terre de sable.", lien: null },
+    { nom: "Lac des Feufollets", cat: "Lac", x: 78.6, y: 20.0,
+    images: ["https://i.pinimg.com/1200x/7c/be/46/7cbe467cb9b4c74818e1ec932039f04c.jpg",
+"https://i.pinimg.com/1200x/d4/22/07/d42207e27b787b41671cef781de9b2a0.jpg"], texte: "Encaissé sous les crêtes rocheuses, ce petit plan d'eau douce est alimenté par les sources froides qui dévalent la montagne. Entouré de galets fins et de saules, c'est un point de halte paisible pour les animaux du matin. Ses eaux profondes et limpides ne gèlent quasiment jamais en hiver, et les promeneurs y observent souvent de lentes ondulations régulières à la surface, alors même qu'aucun poisson ne gobe et que l'air reste parfaitement immobile.", lien: null },
   { nom: "Plage des Amants", cat: "Coin secret", x: 89.9, y: 26.0,
     images: ["https://i.pinimg.com/1200x/44/ba/3a/44ba3ad4e5337fea4b6b5ea6246c9648.jpg",
 "https://i.pinimg.com/736x/5a/fe/37/5afe37b3fac59a7ff2d640e8949178a6.jpg"], texte: "On y accède que par un petit chemin et un court passage sous la roche mais c'est toujours calme et désertique.", lien: null },
 
 /* coeur de l'île */
-  { nom: "Forêt de Morcant", cat: "Nature", x: 57.2, y: 36.6,
+  { nom: "Forêt de Morcant", cat: "Forêt sauvage", x: 57.2, y: 36.6,
     images: ["https://i.pinimg.com/736x/ab/21/88/ab2188a2bd2f1427a0aa916a5ec84b84.jpg",
-  "https://i.pinimg.com/736x/7a/9b/f1/7a9bf15f55ae7a5d6b22b3a688840a56.jpg"], texte: "Toute la nature étalée sur l'île.", lien: null },
+  "https://i.pinimg.com/736x/7a/9b/f1/7a9bf15f55ae7a5d6b22b3a688840a56.jpg"], texte: "La traversée est appréciée des marcheurs, mais les habitués évitent de s'y attarder après le crépuscule : une brume épaisse y monte vite du sol et les boussoles dévient nettement vers le nord-ouest dès qu'on quitte les traces balisées.", lien: null },
   { nom: "Abbaye abandonnée", cat: "Vestige hanté", x: 47.9, y: 47.3,
     images: ["https://i.pinimg.com/1200x/ec/b9/ff/ecb9fff0b612ba2b80208f1b1a6e03ed.jpg",
-"https://i.pinimg.com/736x/07/3c/0e/073c0e5bbaa7a6f43c39d937a768623d.jpg"], texte: "Des ruines aahhh des fantôôôômes et des rituels bizaaaaarrrrrres", lien: null },
+"https://i.pinimg.com/736x/07/3c/0e/073c0e5bbaa7a6f43c39d937a768623d.jpg"], texte: "Seul et unique édifice religieux de toute l'île, cette abbaye médiévale en ruine reste remarquablement entretenue par les habitants. Bien que son mécanisme d'horlogerie soit parfaitement fonctionnel et régulièrement révisé, sa cloche sonne souvent d'elle-même à des heures anormales, sans la moindre intervention humaine.", lien: null },
   { nom: "Le Gardien", cat: "Arbre ancien", x: 63.4, y: 29.1,
     images: ["https://i.pinimg.com/1200x/05/22/48/05224808f0ee28ca812ab2f6473d325e.jpg",
-"https://i.pinimg.com/1200x/08/cd/d1/08cdd1dbc8b3e59e9a44c3b882963e3d.jpg"], texte: "Il est dit que ce vieux chêne immense est la source de toute magie sur l'île, et plus que de le craindre, la population l'admire et le protège. C'est un endroit de recueil, et la route pour s'y rendre est souvent propice aux manifestations.", lien: null },
+"https://i.pinimg.com/1200x/08/cd/d1/08cdd1dbc8b3e59e9a44c3b882963e3d.jpg"], texte: "Chêne colossal dressé au fond d'un vallon moussu, cet arbre vénérable est considéré par la tradition comme la source de toute magie insulaire. Loin d'inspirer la crainte, l'arbre force l'admiration populaire et les habitants veillent sur sa préservation.", lien: null },
 
 
 /* sud de l'île */
@@ -141,16 +141,16 @@ const LIEUX = [
   "https://i.pinimg.com/1200x/15/f2/6a/15f26a438dcef970e4ca4c60dbac38f1.jpg"], texte: "Aucun scientifique n'a su expliquer pourquoi le pic de cette montagne s'achève en trous béants dans sa roche. Ces puits de lumière naturels ont donné vie à tout un écosystème propre à ces grottes.", lien: null },
   { nom: "Sanatorium abandonné", cat: "Vestiges", x: 50.0, y: 57.9,
     images: ["https://i.pinimg.com/1200x/f8/2e/d5/f82ed537d4e07c78828bef030d2bfa8d.jpg",
-  "https://i.pinimg.com/1200x/1c/71/2b/1c712b50d8e4e5f65b8281725eace21a.jpg"], texte: "Description à écrire.", lien: null },
+  "https://i.pinimg.com/1200x/1c/71/2b/1c712b50d8e4e5f65b8281725eace21a.jpg"], texte: "Aujourd'hui abandonné et mangé par la végétation, le site attire les amateurs d'urbex malgré les arrêtés de péril. Les explorateurs nocturnes rapportent de brutales chutes de température dans l'ancienne aile des traitements, doublées d'un grincement de roulettes métalliques.", lien: null },
   { nom: "Village militaire abandonné", cat: "Vestige de guerre", x: 69.6, y: 49.0,
     images: ["https://i.pinimg.com/736x/89/d0/7b/89d07baf73343539da43e8b855ae1010.jpg",
-"https://i.pinimg.com/736x/0a/37/0d/0a370d79d6587537c6d8227f7d37a907.jpg"], texte: "C'était ici qu'ils vivaient tous et ça a été abandonné juste après la guerre.", lien: null },
+"https://i.pinimg.com/736x/0a/37/0d/0a370d79d6587537c6d8227f7d37a907.jpg"], texte: "Bâti en urgence pour soutenir l'effort logistique des deux guerres mondiales, ce rassemblement de baraquements en pierre et hangars de tôle servait de ville d'étape avant le grand départ vers le front ou de zone de repli pour soigner les blessés rapatriés par mer. Désertées depuis la démilitarisation, les ruines ne servent plus que d'abri de fortune aux marcheurs surpris. ", lien: null },
   { nom: "Bunker", cat: "Vestige de guerre", x: 68.7, y: 52.2,
     images: ["https://i.pinimg.com/736x/b4/ef/50/b4ef500b3e1d5216249ad0a12aad2ef8.jpg",
-"https://i.pinimg.com/736x/77/1a/b5/771ab55ac1d10915afe43d1b8173785c.jpg"], texte: "Blockhaus", lien: null },
+"https://i.pinimg.com/736x/77/1a/b5/771ab55ac1d10915afe43d1b8173785c.jpg"], texte: "Unique ouvrage fortifié de ce type sur l'île, cette massive casemate en béton armé a été coulée à flanc de falaise pour parer à une éventuelle attaque ennemie qui n'est jamais venue. À l'époque, la propagande et les autorités assuraient aux insulaires que la structure était assez vaste pour abriter et protéger l'ensemble de la population en cas de raid d'envergure.", lien: null },
   { nom: "Plage Mémorial", cat: "Cimetière", x: 76.8, y: 49.7,
     images: ["https://i.pinimg.com/736x/5a/d9/9b/5ad99bbbe0511207585058c2c07e49ad.jpg",
-"https://i.pinimg.com/1200x/bc/29/d3/bc29d3df54f9424bb839d673fdc62430.jpg"], texte: "Les abords de cette plage sont décorés de stèles funéraires en l'honneur des soldats et de leurs familles qui ont défendu l'île et les intérêts des alliés.", lien: null }
+"https://i.pinimg.com/1200x/bc/29/d3/bc29d3df54f9424bb839d673fdc62430.jpg"], texte: "Sur le haut de la grève s'élève un sobre mémorial en granit érodé par les embruns, flanqué d'un petit cimetière militaire regroupant les tombes alignées de soldats de passage et de personnels soignants qui n'ont jamais pu regagner le continent.", lien: null }
 ];
 
 /* ===== NE RIEN MODIFIER APRES CETTE LIGNE ===== */
