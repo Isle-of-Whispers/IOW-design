@@ -87,7 +87,7 @@ const LIEUX = [
   { nom: "Services publics", cat: "Secours & institution", x: 25.0, y: 55.3,
     images: ["https://i.pinimg.com/736x/f3/4b/02/f34b0277bb8f3bf71f13d9f4a21c16b3.jpg",
 "https://i.pinimg.com/736x/b1/a3/0e/b1a30e0e5a7abbaa2a13179b32c65b59.jpg"], texte: "Installé sur une vaste esplanade fonctionnelle du Sud, ce complexe contemporain regroupe l'ensemble des secours et institutions de l'île.", lien: null },
-  { nom: "Kervenez", cat: "Sécurité", x: 22.8, y: 54.2,
+  { nom: "Kervenez", cat: "Résidences", x: 22.8, y: 54.2,
     images: ["https://i.pinimg.com/736x/fc/76/95/fc76958bbd3cb12c1e77c2e3832f8b02.jpg",
 "https://i.pinimg.com/736x/1d/34/d0/1d34d064310a8b179bf69ce53dc9ffeb.jpg"], texte: "Vaste ensemble d'habitations calmes, ce secteur réunit des pavillons récents, ainsi que de petits immeubles contemporains. Très prisé des soignants de l'hôpital et des familles d'actifs, l'endroit offre des trottoirs larges bordés de haies soignées.", lien: null },
   { nom: "Montvale Retail Park", cat: "Centre commercial", x: 30.2, y: 53.0,
