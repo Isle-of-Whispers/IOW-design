@@ -1453,6 +1453,8 @@ border-radius:5px;
 
 .topicslist_infos {
   flex-grow: 100;
+    background-position: 100% 55%;
+  background-repeat: no-repeat;
 }
 
 .topictitle {
@@ -1590,6 +1592,8 @@ border-radius:5px;
   background: var(--neutralDark);
   border-radius: 5px;
   padding: 5px;
+    max-height: 400px;
+    overflow: auto;
 }
 
 .codebox dt {
@@ -3328,25 +3332,7 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 
     z-index: 999;
 }
-
-.codebox dd {
-    max-height: 400px;
-    overflow: auto;
-}
-
-.topicslist_infos {
-  background-position: 100% 55%;
-  background-repeat: no-repeat;
-}
-
-.buttons {
-  background: var(--neutralDark);
-  padding: 1px 8px;
-  margin-right: 5px;
-  border-radius: 5px;
-  opacity: 1;
-}
-
+/* édition de profil onglets qui font chier */
 #tabs ul li a {
   display: block;
   text-align: center;
