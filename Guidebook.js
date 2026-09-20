@@ -109,7 +109,7 @@ const LIEUX = [
 "https://i.pinimg.com/1200x/d4/22/07/d42207e27b787b41671cef781de9b2a0.jpg"], texte: "Encaissé sous les crêtes rocheuses, ce petit plan d'eau douce est alimenté par les sources froides qui dévalent la montagne. Entouré de galets fins et de saules, c'est un point de halte paisible pour les animaux du matin. Ses eaux profondes et limpides ne gèlent quasiment jamais en hiver, et les promeneurs y observent souvent de lentes ondulations régulières à la surface, alors même qu'aucun poisson ne gobe et que l'air reste parfaitement immobile.", lien: null },
   { nom: "Plage des Amants", cat: "Coin secret", x: 89.9, y: 26.0,
     images: ["https://i.pinimg.com/1200x/44/ba/3a/44ba3ad4e5337fea4b6b5ea6246c9648.jpg",
-"https://i.pinimg.com/736x/5a/fe/37/5afe37b3fac59a7ff2d640e8949178a6.jpg"], texte: "On y accède que par un petit chemin et un court passage sous la roche mais c'est toujours calme et désertique.", lien: null },
+"https://i.pinimg.com/736x/5a/fe/37/5afe37b3fac59a7ff2d640e8949178a6.jpg"], texte: "Isolée à l'autre bout de l'île, cette crique encaissée de sable et de schiste noir ne sert pas aux baignades du dimanche. Coins aux courants dangereux, on n'y accède qu'au terme d'une longue randonnée, ou en y venant exprès pour défier la tradition locale. Selon une vieille histoire, deux amoureux interdits s'y seraient noyés enlacés après le naufrage de leur barque.", lien: null },
 
 /* coeur de l'île */
   { nom: "Forêt de Morcant", cat: "Forêt sauvage", x: 57.2, y: 36.6,
@@ -138,7 +138,7 @@ const LIEUX = [
 /* est de l'île */
   { nom: "Gueule des étoiles", cat: "Merveille naturelle", x: 73.0, y: 45.1,
     images: ["https://i.pinimg.com/736x/0c/12/02/0c1202916e2de64428e2ac4dc881a47b.jpg",
-  "https://i.pinimg.com/1200x/15/f2/6a/15f26a438dcef970e4ca4c60dbac38f1.jpg"], texte: "Aucun scientifique n'a su expliquer pourquoi le pic de cette montagne s'achève en trous béants dans sa roche. Ces puits de lumière naturels ont donné vie à tout un écosystème propre à ces grottes.", lien: null },
+  "https://i.pinimg.com/1200x/15/f2/6a/15f26a438dcef970e4ca4c60dbac38f1.jpg"], texte: "Immense gouffre naturel ouvert dans la roche calcaire, cette cavité impressionnante s'achève par de larges percées béantes donnant directement sur le ciel. Ces puits de lumière ont permis le développement d'une végétation singulière et luxuriante, abritée des bourrasques marines au fond de la caverne. Aucun relevé géologique n'a su expliquer l'origine de ces ouvertures régulières.", lien: null },
   { nom: "Sanatorium abandonné", cat: "Vestiges", x: 50.0, y: 57.9,
     images: ["https://i.pinimg.com/1200x/f8/2e/d5/f82ed537d4e07c78828bef030d2bfa8d.jpg",
   "https://i.pinimg.com/1200x/1c/71/2b/1c712b50d8e4e5f65b8281725eace21a.jpg"], texte: "Aujourd'hui abandonné et mangé par la végétation, le site attire les amateurs d'urbex malgré les arrêtés de péril. Les explorateurs nocturnes rapportent de brutales chutes de température dans l'ancienne aile des traitements, doublées d'un grincement de roulettes métalliques.", lien: null },
