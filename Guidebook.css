@@ -1133,3 +1133,27 @@ c6{background:var(--grp-6);-webkit-mask-image:var(--qeel-carte-6);mask-image:var
     right: -20px;
   }
 }
+
+/* Bouton retour */
+.gb-retour {
+  position: fixed;
+  z-index: 100;
+  top: 14px;
+  left: 14px;
+  padding: 8px 16px;
+  border: 1px solid var(--neutralDarker, #A3B2A8);
+  border-radius: 5px;
+  background: var(--neutral, #FCF2EB);
+  color: var(--contrast, #2E3A3C);
+  font-family: var(--font, 'Inter'), Arial, sans-serif;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.gb-retour:hover {
+  background: var(--accentClr, #B45119);
+  color: var(--neutral, #FCF2EB);
+}
