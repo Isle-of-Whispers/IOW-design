@@ -2866,6 +2866,45 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
   text-shadow: none;
 }
 
+
+/* like & dislike */
+.ctl-msg-reactions {
+  margin-right: auto;
+  align-self: center;
+  font-size: var(--little-size);
+  line-height: 1.5;
+  color: var(--textColor);
+}
+
+.ctl-msg-reactions {
+  order: 2;
+  align-self: flex-start;
+  font-size: var(--little-size);
+  line-height: 1.5;
+  color: var(--textColor);
+}
+
+.ctl-msg-reactions:not(:has(*)) {
+  display: none;
+}
+
+.ctl-msg-reactions .fa_like_list + .fa_dislike_list {
+  margin-top: 2px;
+}
+/* blacklisted cacher le message */
+.ctl-msg-cache {
+  margin-bottom: 26px;
+  padding: 14px 18px;
+  border: var(--border);
+  border-left: 3px solid var(--neutralDarker);
+  border-radius: 12px;
+  background: var(--neutral);
+  font-size: var(--little-size);
+  font-style: italic;
+  text-align: center;
+  color: var(--textColor);
+}
+
 /* Chronologie */
 .chrono {
  width: 600px;
@@ -3306,6 +3345,95 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 
 .fp-pied + al { margin-top: 14px; }
 
+/* ===== MESSENGER ===== */
+
+body #FAM-button-open {
+  position: fixed;
+  z-index: 101;
+  top: 12px;
+  right: 150px;
+  left: auto;
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+body #FAM[data-hidden="true"]{ left: 0px;opacity:0;visibility: hidden; }
+body #FAM {
+  z-index: 102;
+  top: calc(var(--barre-h) + 10px);
+  height: auto;
+  bottom: 10px;
+  left:50px;
+  padding-bottom: 10px;
+  border-radius:7px;
+  transition: all ease .7s;
+   opacity: 1;
+  visibility: visible;
+}
+
+[data-theme-controls] {
+  position: fixed;
+  top: 12px;
+  right: 195px;
+  z-index: 101;
+  margin-right: 6px;
+}
+
+body #FAM-tab-container{ height:44px; }
+body #FAM-tabs{ overflow-x:auto;overflow-y:hidden;padding-bottom:12px;align-items:flex-start; }
+/* pour que le scroll soit visible mici c relou */
+body #FAM-tabs{ scrollbar-width:auto; scrollbar-color:auto; }
+body #FAM-tabs::-webkit-scrollbar{ height:6px; }
+body #FAM-tabs::-webkit-scrollbar-thumb{ background:var(--FAM-accentClr);border-radius:3px; }
+body #FAM-tabs::-webkit-scrollbar-track{ background:transparent; }
+
+#FAM .FAM-chat-avatar,
+#FAM .FAM-chat-content {
+  background-color: var(--FAM-pluginBackground);
+}
+
+#FAM .FAM-chat-avatar {
+  align-self: stretch;
+  display: grid;
+  place-items: center;
+  opacity: 1;
+}
+
+#FAM .FAM-chat:not(.FAM-new-post) .FAM-chat-avatar img {
+  opacity: .8;
+}
+
+#FAM .FAM-chat-avatar img {
+  background: var(--neutralDark);
+}
+
+#FAM .FAM-chat:hover .FAM-chat-title {
+  color: var(--accentClr);
+}
+
+#FAM .FAM-chat-date .ctl-auteur a {
+  display: inline;
+}
+
+#FAM .FAM-chat-date .ctl-lastdate {
+  text-transform: lowercase;
+}
+
+#FAM .FAM-chat + .FAM-chat {
+  margin-top: 10px;
+}
+
+#FAM .FAM-chat-date .ctl-auteur {
+  margin: 0 4px;
+}
+
+#FAM .FAM-topic-name {
+  display: none;
+}
+#FAM .FAM-delete-button[data-confirm="1"] {
+  color: var(--ctl-trigger);
+}
 
 /* ===== AJOUTS A DOUBLE CHECK LATER ===== */
 
