@@ -476,31 +476,7 @@ line-height:1.7;
     border-left: var(--light) 8px solid;
 }
 
-@media (max-width:1120px){
-  :root{ --barre-h:104px; }
-  .switcheroo[position="top"]{ height:52px; }
-  .navbar{
-    top:52px;height:52px;
-    justify-content:flex-start;
-    padding:0 10px;
-    background:var(--neutral);
-    pointer-events:auto;
-    overflow-x:auto;overflow-y:hidden;
-    scrollbar-width:none;
-  }
-  #notiffi_button,
-  body #FAM-button-open,
-  [data-theme-controls]{ top:9px; }
-  .navbar::-webkit-scrollbar{ display:none; }
-  .navbar li{ flex:0 0 auto; }
-  .navbar a.mainmenu{ white-space:nowrap; }
-}
-@media (max-width:940px){
-  .main_forum{ margin-left:10px;margin-right:10px; }
-}
-@media (max-width:600px){
-  .main_forum{ padding:12px;margin-top:12px; }
-}
+
 
 /* ----- VUE PROFIL D'UN MEMBRE ----- */
 
