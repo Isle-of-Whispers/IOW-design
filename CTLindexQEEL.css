@@ -494,7 +494,7 @@ line-height:1.7;
 .profile_avatar {
   width: auto;
   aspect-ratio: var(--prof-ratio);
-  border: var(--border);
+  outline: var(--border);
   border-radius: 8px;
   overflow: hidden;
   background: var(--neutralDark);
@@ -2561,7 +2561,7 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 .ctl-msg-cote{flex:0 0 200px;display:flex;flex-direction:column;gap:9px}
 
 .ctl-msg-avatar{
-  border:var(--border);border-radius:8px;overflow:hidden;
+  outline:var(--border);border-radius:8px;overflow:hidden;
   background:var(--neutralDark);
   aspect-ratio:200 / 320;
 }
