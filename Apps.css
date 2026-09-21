@@ -127,9 +127,9 @@
   padding: 3px 9px;
   border: var(--border);
   border-radius: 20px;
-  border-color: var(--FAM-accentClr);
   font-size: 10.5px;
   letter-spacing: .03em;
+  background-color: var(--light);
 }
 
 .dat-bloc {
