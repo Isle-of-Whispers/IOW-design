@@ -2692,11 +2692,11 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 }
 
 /* une ligne par champ contact */
-.ctl-msg-liens a:has(img[src*="empty_15"])::before   {content:"\f42b"}  /* bi-images */
-.ctl-msg-liens a:has(img[src*="empty_14"])::before {content:"\f415"}  /* bi-heart-fill */
-.ctl-msg-liens a:has(img[src*="empty_13"])::before     {content:"\f4cf"}  /* bi-people-fill */
-.ctl-msg-liens a:has(img[src*="empty_12"])::before{content:"\f43c"}  /* bi-journal-bookmark-fill */
-.ctl-msg-liens a:has(img[src*="empty_11"])::before{content:"\f4db"} /* bi-person-lines-fill */
+.ctl-msg-liens a:has(img[src*="empty_14"])::before {content:"\f415";}
+.ctl-msg-liens a:has(img[src*="empty_13"])::before {content:"\f589";} 
+.ctl-msg-liens a:has(img[src*="empty_12"])::before{content:"\f43c";}
+.ctl-msg-liens a:has(img[src*="empty_11"])::before{content:"\f4db";}
+.ctl-msg-liens a:has(img[src$="emptin10"])::before {content: "\f378";}
 .ctl-msg-cote img,
 .ctl-msg-tw img,
 .ctl-msg .field_content img{max-width:100%;height:auto}
