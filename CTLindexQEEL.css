@@ -2696,7 +2696,7 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 .ctl-msg-liens a:has(img[src*="empty_13"])::before {content:"\f589";} 
 .ctl-msg-liens a:has(img[src*="empty_12"])::before{content:"\f43c";}
 .ctl-msg-liens a:has(img[src*="empty_11"])::before{content:"\f4db";}
-.ctl-msg-liens a:has(img[src$="emptin10"])::before {content: "\f378";}
+.ctl-msg-liens a:has(img[src*="emptin10"])::before{content:"\f378";}
 .ctl-msg-cote img,
 .ctl-msg-tw img,
 .ctl-msg .field_content img{max-width:100%;height:auto}
