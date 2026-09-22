@@ -2602,12 +2602,14 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 .ctl-perso-mp a::after{content:"MP"}
 
 .ctl-msg-tw{
-  flex:0 0 420px;
+  order:2;
+  flex:0 0 360px;
   border-left:var(--border);
   padding-left:20px;
   display:flex;
   gap:0;
 }
+
 .ctl-msg-texte img,
 .ctl-msg .signature_div img {
   max-width: 100%;
@@ -2619,8 +2621,9 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
   max-width: 100%;
 }
 .ctl-msg-texte { overflow-wrap: anywhere; }
+
 .ctl-msg-tw-bloc{
-  flex:0 0 200px;
+  flex:0 0 170px;
   min-width:0;
 }
 .ctl-msg-tw-warn{border-left:var(--border);padding-left:22px}
@@ -2634,7 +2637,7 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 
 .ctl-msg-tw-txt{
   font-size:12px;line-height:1.5;
-  max-height:60px;overflow-y:auto;overscroll-behavior:contain;
+  max-height:96px;overflow-y:auto;overscroll-behavior:contain;
   padding-right:6px;
   scrollbar-width:thin;scrollbar-color:var(--neutralDarker) transparent;
 }
@@ -2642,6 +2645,7 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 /* --- images aes --- */
 
 .ctl-msg-aes{
+  order:3;
   flex:1 1 auto;
   min-width:0;
   display:flex;
@@ -2658,9 +2662,12 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 .ctl-msg-aes img{
   width:130px;
   height:100px;
+  box-sizing:border-box;
+  padding:4px;
   object-fit:cover;
-  border-radius:8px;
   border:var(--border);
+  border-radius:8px;
+  background:var(--neutralDark);
 }
 
 .ctl-msg-aes img:nth-of-type(n+3){
