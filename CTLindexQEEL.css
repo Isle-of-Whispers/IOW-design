@@ -1357,19 +1357,39 @@ a.mainmenu img {
 }
 
 .navbar a.mainmenu {
-   display:inline-flex;
-  gap:6px;
+display:inline-flex;
+gap:6px;
 height:35px;
 padding:0 7px;
 align-items:center;
 background:var(--neutralDark);
 border-radius:5px;
+position: relative;
+isolation: isolate;
+color: var(--contrast);
+text-decoration: none;
+transition: border-color .5s ease, color .5s ease;
+
 }
-.navbar a.mainmenu:hover{ background:var(--neutralDarker); }
+.navbar a.mainmenu:hover{ 
+  border-color: var(--accentClr);
+  color: var(--light);
+}
 .navbar a.mainmenu::before {
   font-family: "bootstrap-icons";
   font-size: 14px;
   line-height: 1;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(45deg, var(--accentClr), var(--accentClrDark));
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+.navbar a.mainmenu:hover::before {
+  opacity: 1;
 }
 
 .nav-updown{
@@ -2539,7 +2559,8 @@ form[name="form_login"] .content {
   display:block;
   background:var(--neutral);color:var(--textColor);
   border:var(--border);border-radius:12px;
-  padding:16px 18px 18px;margin-bottom:26px;
+  padding:10px;
+  margin-bottom:10px;
 }
 div.post_row.ctl-msg:nth-of-type(2),
 div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
