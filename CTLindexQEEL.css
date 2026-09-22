@@ -406,14 +406,11 @@ line-height:1.7;
   min-width: calc(var(--ctl-l-dernier) + var(--ctl-l-avatar) + 8px);
 }
 
-.ctl-sousforums{
-  flex:0 0 var(--ctl-l-sousforums);
-   padding:9px 7px;
-   margin-right:3px;
-  display:flex;
-   flex-direction:column;
-   gap:5px;
-   justify-content:flex-start;
+.ctl-sousforums {
+  flex: 0 0 auto;
+  display: block;
+  margin-bottom: -3px;
+  overflow: visible;
 }
 
 .ctl-sousforums a {
