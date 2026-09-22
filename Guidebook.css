@@ -797,6 +797,10 @@ fd{
   color:color-mix(in srgb, var(--grp-4) 60%, var(--textColor));
   opacity:.8;
 }
+[data-color-scheme="dark"] fd {
+  color: color-mix(in srgb, var(--grp-4) 45%, var(--textColorAccent));
+  opacity: 1;
+}
 
 gl{
   color:var(--contrast);
@@ -848,10 +852,17 @@ oz{
     0 6px 14px color-mix(in srgb, var(--contrast) 45%, transparent);
 }
 
-ff{
-  font-style:italic;opacity:.55;
-  text-decoration:underline wavy color-mix(in srgb, var(--neutralDarker) 85%, transparent);
-  text-decoration-thickness:1px;text-underline-offset:.22em;
+ff {
+  font-style: italic;
+  color: #3E5C8A;
+  text-decoration: underline wavy color-mix(in srgb, currentColor 65%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .22em;
+}
+
+[data-color-scheme="dark"] ff,
+.fa_darkmode ff {
+  color: #9DB8E0;
 }
 
 tw{
@@ -956,10 +967,15 @@ vs{
 vs::before{content:"« ";color:var(--accentClr)}
 vs::after{content:" »";color:var(--accentClr)}
 
-go{
-  font-family:'Pirata One',cursive;
-  font-size:1.5em;line-height:1.1;letter-spacing:.02em;
-  color:var(--contrast);
+go {
+  font-family: 'Pirata One', cursive;
+  font-size: 1.5em;
+  line-height: 1.1;
+  letter-spacing: .02em;
+  color: var(--accentClr);
+}
+[data-color-scheme="dark"] go {
+  color: var(--contrast);
 }
 
 mc{font-family:'Special Elite',Courier,monospace;letter-spacing:.01em}
