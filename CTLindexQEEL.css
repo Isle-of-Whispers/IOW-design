@@ -2878,15 +2878,15 @@ transform:translateY(-50%);
   display:none;
 }
 
-.ctl-msg-aes img{
-  width:130px;
-  height:115px !important;
-  box-sizing:border-box;
-  padding: 10px;
-  object-fit:cover;
-  border:var(--border);
-  border-radius: 10px;
-  background:var(--neutralDark);
+.ctl-msg-aes img {
+    width: 130px;
+    height: 120px !important;
+    box-sizing: border-box;
+    padding: 10px;
+    object-fit: cover;
+    border: var(--border);
+    border-radius: 50px;
+    background: var(--neutralDark);
 }
 
 .ctl-msg-aes img:nth-of-type(n+3){
