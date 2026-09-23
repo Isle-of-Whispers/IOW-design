@@ -500,7 +500,7 @@ line-height:1.7;
 
 .ctl-lastpost{display:flex;flex-direction:column;align-items:center;gap:1px;font-size:10.5px;}
 
-.ctl-auteur{font-weight:700;text-transform:uppercase;letter-spacing:.3px;line-height:1.2;}
+.ctl-auteur{font-weight:700;letter-spacing:.3px;line-height:1.2;}
 
 .ctl-auteur a{text-decoration:none;}
 
