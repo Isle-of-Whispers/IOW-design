@@ -798,8 +798,8 @@ line-height:1.7;
   height: 120px !important;
 }
 
-.ctl-prof-aes .ajax-profil_edit,
-.ctl-prof-aes .ajax-profil_valid {
+.user_profile .ajax-profil_edit,
+.user_profile .ajax-profil_valid {
   display: none;
 }
 
