@@ -2735,12 +2735,14 @@ div.post_row.ctl-msg:last-of-type{border-radius:12px;border:var(--border);}
 }
 .ctl-msg-presence{
   position:absolute;left:0px;
-top:3px;
+top:-10px;
+  left:-45px;
 transform:translateY(-50%);
-  font-size:7px;
+  font-size:70px;
   line-height:1;
   color:var(--neutralDarker);
 }
+
 /* {ONLINE_IMG_NEW} */
 .ctl-msg-presence.online{
   color:#5aa469;
