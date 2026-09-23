@@ -709,9 +709,16 @@ line-height:1.7;
   margin-top: 3px;
 }
 
+.ctl-prof-colonne {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
 .profile_contact {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   gap: 5px;
   float: none;
 }
@@ -774,7 +781,8 @@ line-height:1.7;
 }
 
 .ctl-prof-aes img {
-  height: 100%;
+  display: block;
+  height: 120px !important;
   width: auto;
   max-width: none;
   object-fit: cover;
@@ -783,6 +791,16 @@ line-height:1.7;
   border: var(--border);
   border-radius: 8px;
   background: var(--neutralDark);
+}
+
+.user_profile .ctl-prof-aes field {
+  display: block;
+  height: 120px !important;
+}
+
+.ctl-prof-aes .ajax-profil_edit,
+.ctl-prof-aes .ajax-profil_valid {
+  display: none;
 }
 
 .ctl-prof-tw-warn {
