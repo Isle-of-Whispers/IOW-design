@@ -40,7 +40,7 @@
 .qeel-groupe:focus{
   z-index:30;
   transform:rotate(calc(90deg + var(--rot))) translateY(-7px) scale(1.07);
-  transition:transform 0.2 ease;
+  transition:transform 0.2s ease;
 }
 
 .qeel-groupe::before{
