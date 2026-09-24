@@ -69,8 +69,8 @@
 
 .nav-updown{
   position:fixed;
-  bottom:10px;
-  left:12px;
+  top:12px;
+  left:170px;
   z-index:100;
   display:flex;
   flex-direction:column;
@@ -79,6 +79,7 @@
 .nav-updown a{
   width:35px;height:35px;
   display:grid;place-items:center;
+   border: 1px solid var(--neutralDarker, #A3B2A8);
   background:var(--neutral);
   border-radius:10px;
   color:var(--textColor);
@@ -146,11 +147,11 @@ body{
 
 .bascule{
   position: fixed;
-  top: 14px;
+  top: 10px;
   right: 16px;
   z-index: 50;
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   padding: 0;
   border: var(--border);
   border-radius: 50%;
@@ -162,6 +163,7 @@ body{
   display: grid;
   place-items: center;
   box-shadow: var(--ombre-douce);
+   border: 1px solid var(--neutralDarker, #A3B2A8);
 }
 
 .bascule:hover{
@@ -661,7 +663,7 @@ body.tactile .panneau .photos > *{
 @media (max-width: 860px){
 
   .page{
-    padding: 44px 12px 100px;
+    padding: 60px 12px 100px;
   }
 
   .bandeau{
@@ -797,10 +799,6 @@ fd{
   color:color-mix(in srgb, var(--grp-4) 60%, var(--textColor));
   opacity:.8;
 }
-[data-color-scheme="dark"] fd {
-  color: color-mix(in srgb, var(--grp-4) 45%, var(--textColorAccent));
-  opacity: 1;
-}
 
 gl{
   color:var(--contrast);
@@ -852,17 +850,10 @@ oz{
     0 6px 14px color-mix(in srgb, var(--contrast) 45%, transparent);
 }
 
-ff {
-  font-style: italic;
-  color: #3E5C8A;
-  text-decoration: underline wavy color-mix(in srgb, currentColor 65%, transparent);
-  text-decoration-thickness: 1px;
-  text-underline-offset: .22em;
-}
-
-[data-color-scheme="dark"] ff,
-.fa_darkmode ff {
-  color: #9DB8E0;
+ff{
+  font-style:italic;opacity:.55;
+  text-decoration:underline wavy color-mix(in srgb, var(--neutralDarker) 85%, transparent);
+  text-decoration-thickness:1px;text-underline-offset:.22em;
 }
 
 tw{
@@ -967,15 +958,10 @@ vs{
 vs::before{content:"« ";color:var(--accentClr)}
 vs::after{content:" »";color:var(--accentClr)}
 
-go {
-  font-family: 'Pirata One', cursive;
-  font-size: 1.5em;
-  line-height: 1.1;
-  letter-spacing: .02em;
-  color: var(--accentClr);
-}
-[data-color-scheme="dark"] go {
-  color: var(--contrast);
+go{
+  font-family:'Pirata One',cursive;
+  font-size:1.5em;line-height:1.1;letter-spacing:.02em;
+  color:var(--contrast);
 }
 
 mc{font-family:'Special Elite',Courier,monospace;letter-spacing:.01em}
