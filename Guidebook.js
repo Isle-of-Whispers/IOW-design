@@ -49,7 +49,7 @@ const LIEUX = [
     images: ["https://i.pinimg.com/736x/e1/a6/a9/e1a6a984f8103e91e7fda47d401f0041.jpg",
 "https://i.pinimg.com/1200x/92/db/19/92db19a5268d7defcc173eb63efa1d00.jpg"], texte: "Boutique hybride à la façade de bois sombre, ce commerce réunit une épicerie de produits du quotidien et une herboristerie traditionnelle. Entre deux rayons d'alimentation, les étagères proposent du matériel pour les initiés comme pour les curieux. C'est aussi là que la Voyante laisse aussi ses prédictions pour qui s'y intéresse.", lien: "https://isle-of-whispers.forumactif.com/f33-l-officine-des-sorcieres" },
   { nom: "Manoir de Ravencrag", cat: "Musée de curiosités", x: 33.6, y: 46.2,
-    images: ["https://i.pinimg.com/736x/4f/4f/cc/4f4fccc6fcd843a26d40fec5ea293dab.jpg",
+    images: ["https://i.pinimg.com/736x/98/7e/ec/987eeca58a72da304432e0a861e629b3.jpg",
 "https://i.pinimg.com/736x/54/68/7b/54687ba680832875112ecfca7a3d9e39.jpg"], texte: "Ce vieux manoir austère en granit noirci abrite le musée officieux des curiosités et des légendes de l'île, né de la collection personnelle d'un vieil érudit passionné du folklore de l'île aux murmures.", lien: "https://isle-of-whispers.forumactif.com/f34-le-manoir-de-ravencrag" },
 
 /*Front de mer */
