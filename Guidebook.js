@@ -73,7 +73,7 @@ const LIEUX = [
   { nom: "Bellecombe", cat: "Quartier résidentiel", x: 29.7, y: 33.8,
     images: ["https://i.pinimg.com/1200x/52/23/94/52239475d79d464a91824158aa9511fd.jpg",
 "https://i.pinimg.com/736x/c0/11/07/c011077922639a628ad7f2f23bb04485.jpg"], texte: "Niché dans un repli plus abrité en contrebas des falaises, ce quartier résidentiel populaire et familial se compose de petites maisons de ville mitoyennes en crépi clair et de pavillons de bord de mer. L'ambiance y est conviviale.", lien: null },
-  { nom: "Vision's equestrian center", cat: "Centre équestre", x: 45.6, y: 33.5,
+  { nom: "Centre Équestre Vision", cat: "Centre équestre", x: 45.6, y: 33.5,
     images: ["https://i.pinimg.com/736x/70/7a/d7/707ad71b40ed3a504e45564e07f72f36.jpg",
 "https://i.pinimg.com/736x/53/c6/28/53c628c68f3481052bdcad18a30889a5.jpg"], texte: "Cœur battant de la culture équine de l'île, cet immense complexe dispose d'infrastructures professionnelles : un grand manège, ses carrières de sable, les écuries ou les grandes pâtures à perte de vue. L'établissement gère à la fois l'élevage sur place, l'école d'équitation, les pensions pour propriétaires et le départ des randonnées côtières.", lien: null },
   { nom: "Sables des sirènes", cat: "Plage", x: 24.8, y: 37.6,
