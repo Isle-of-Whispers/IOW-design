@@ -777,15 +777,15 @@ u{ background:linear-gradient(
   color:var(--textColorAccent);
 padding-bottom: 1px;
 text-decoration: none;}
-  
+
 k1,k2,k3,k4,k5,k6,kp{font-weight:600}
-k1{color:var(--grp-1)}
-k2{color:var(--grp-2)}
-k3{color:var(--grp-3)}
-k4{color:var(--grp-4)}
-k5{color:var(--grp-5)}
-k6{color:var(--grp-6)}
-kp{color:var(--grp-pnj)}
+k1{color:var(--grp-1)}   /* La Lune      */
+k2{color:var(--grp-2)}   /* L'Etoile     */
+k3{color:var(--grp-3)}   /* Le Soleil    */
+k4{color:var(--grp-4)}   /* Les Amoureux */
+k5{color:var(--grp-5)}   /* La Roue      */
+k6{color:var(--grp-6)}   /* La Mort      */
+kp{color:var(--grp-pnj)} /* PNJ          */
 
 hl{
   background:linear-gradient(
@@ -798,6 +798,10 @@ hl{
 fd{
   color:color-mix(in srgb, var(--grp-4) 60%, var(--textColor));
   opacity:.8;
+}
+[data-color-scheme="dark"] fd {
+  color: color-mix(in srgb, var(--grp-4) 45%, var(--textColorAccent));
+  opacity: 1;
 }
 
 gl{
@@ -828,17 +832,20 @@ mn{
   padding:.05em .4em;border-radius:4px;
 }
 
-sh{
-  font-style:italic;color:var(--contrastLight);
-  letter-spacing:.01em;
+sh {
+  font-style: italic;
+  font-size: .95em;
+  letter-spacing: .03em;
+  color: color-mix(in srgb, var(--contrastLight) 35%, var(--accentClr));
 }
 
 sw{
-  background:color-mix(in srgb, var(--grp-3) 16%, transparent);
-  border:1px solid color-mix(in srgb, var(--grp-3) 45%, transparent);
-  color:var(--grp-3);
-  padding:.05em .5em;border-radius:.85em;
-  font-weight:600;
+    background: color-mix(in srgb, var(--accentClr) 16%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accentClrDark) 45%, transparent);
+    color: var(--accentClr);
+    padding: .05em .5em;
+    border-radius: .85em;
+    font-weight: 600;
 }
 
 es{letter-spacing:.45em;margin-right:-.45em}
@@ -850,10 +857,17 @@ oz{
     0 6px 14px color-mix(in srgb, var(--contrast) 45%, transparent);
 }
 
-ff{
-  font-style:italic;opacity:.55;
-  text-decoration:underline wavy color-mix(in srgb, var(--neutralDarker) 85%, transparent);
-  text-decoration-thickness:1px;text-underline-offset:.22em;
+ff {
+  font-style: italic;
+  color: #3E5C8A;
+  text-decoration: underline wavy color-mix(in srgb, currentColor 65%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .22em;
+}
+
+[data-color-scheme="dark"] ff,
+.fa_darkmode ff {
+  color: #9DB8E0;
 }
 
 tw{
@@ -890,17 +904,37 @@ t2{
 }
 
 sr{
-  display:block;
+  display:flex;align-items:center;gap:1em;
   font-size:.72em;letter-spacing:.22em;text-transform:uppercase;
-  font-weight:700;color:var(--accentClr);text-align:center;
+  font-weight:700;color:var(--accentClr);
 }
 
-dc{display:block}
-dc::first-letter{
-  float:left;line-height:.8;
-  font-family:var(--ctl-titre);font-size:3.2em;font-weight:700;
-  color:var(--accentClr);
-  margin:.06em .12em 0 0;
+sr::before,sr::after{
+  content:"\2726";
+  flex:1 1 0;
+  font-size:1.15em;letter-spacing:0;
+  background-image:linear-gradient(var(--accentClr),var(--accentClr));
+  background-size:calc(100% - 1.9em) 1px;
+  background-repeat:no-repeat;
+  opacity:.75;
+}
+
+sr::before{
+  text-align:right;
+  background-position:left center;
+}
+
+sr::after{
+  text-align:left;margin-left:-.22em;
+  background-position:right center;
+}
+
+dc {
+  display: block;
+  font-family: 'Nunito Sans', sans-serif;
+  text-indent: 2em;
+  text-indent: 2em each-line;
+  line-height: 1.6em;
 }
 
 tf{
@@ -958,10 +992,15 @@ vs{
 vs::before{content:"« ";color:var(--accentClr)}
 vs::after{content:" »";color:var(--accentClr)}
 
-go{
-  font-family:'Pirata One',cursive;
-  font-size:1.5em;line-height:1.1;letter-spacing:.02em;
-  color:var(--contrast);
+go {
+  font-family: 'Pirata One', cursive;
+  font-size: 1.5em;
+  line-height: 1.1;
+  letter-spacing: .02em;
+  color: var(--accentClr);
+}
+[data-color-scheme="dark"] go {
+  color: var(--contrast);
 }
 
 mc{font-family:'Special Elite',Courier,monospace;letter-spacing:.01em}
@@ -975,30 +1014,36 @@ jr{
 }
 
 lt{
-  display:block;margin:0 0 .5em;padding:1.4em 1.6em;
-  border:var(--border);border-radius:3px;
-  border-left:3px solid var(--accentClr);
-  font-family:'The Girl Next Door',cursive;font-size:1.4em;line-height:1.4;
-  background:
-    repeating-linear-gradient(to bottom, transparent 0 calc(1.4em - 1px),
-      color-mix(in srgb, var(--neutralDarker) 40%, transparent) calc(1.4em - 1px) 1.4em),
-    linear-gradient(135deg,
-      color-mix(in srgb, var(--accentClr) 8%, transparent),
-      color-mix(in srgb, var(--neutralDark) 70%, transparent));
+  display:block;margin:0 0 .6em;
+  padding:25px 26px 24px;
+  border:1px solid #DCD7CA;border-radius:2px;
+  font-family:'Schoolbell',cursive;
+  font-size:17px;line-height:25px;
+  color:#23272C;
+  background-color:#FCFAF2;
+  background-image:
+    radial-gradient(130px 100px at 100% 100%,
+      rgba(186,152,74,.34), rgba(186,152,74,.12) 45%, rgba(186,152,74,0) 72%),
+    linear-gradient(to bottom, transparent 0 24px, rgba(84,94,106,.20) 24px 25px);
+  background-size:auto, 100% 25px;
+  background-position:0 0, 0 0;
+  background-repeat:no-repeat, repeat;
+  box-shadow:0 1px 2px rgba(45,42,35,.12), 0 8px 18px rgba(45,42,35,.08);
 }
 
 rp{
   display:block;padding:1.1em 1.3em;
-  border:var(--border);border-radius:3px;
-  border-top:3px solid var(--contrast);
+  border:#23272C;border-radius:3px;
+  color:#23272C;
   font-family:'Special Elite',Courier,monospace;
   font-size:.95em;line-height:1.7;
+  width:70%; margin:auto;
   background:
     repeating-linear-gradient(to right,
-      color-mix(in srgb,var(--neutralDarker) 22%,transparent) 0 1px, transparent 1px 14px),
+      color-mix(in srgb,#23272C 5%,transparent) 0 1px, transparent 1px 14px),
     repeating-linear-gradient(to bottom,
-      color-mix(in srgb,var(--neutralDarker) 22%,transparent) 0 1px, transparent 1px 14px),
-    color-mix(in srgb, var(--neutralDark) 55%, transparent);
+      color-mix(in srgb,#23272C 5%,transparent) 0 1px, transparent 1px 14px),
+    color-mix(in srgb,#f4eee0 95%, transparent);
 }
 
 tp{
@@ -1039,10 +1084,11 @@ so::before{
 
 sat{
   display:block;margin:0 auto;text-align:center;
-  color:var(--accentClr);font-size:1.5em;letter-spacing:.6em;
+  color:var(--accentClr);font-size:1.5em;
 }
 sat::before{content:"⁂"}
 
+/* cartes dans les messages */
 c1,c2,c3,c4,c5,c6{
   display:inline-block;vertical-align:middle;
   width:var(--ctl-carte,120px);aspect-ratio:55/90;
@@ -1050,6 +1096,7 @@ c1,c2,c3,c4,c5,c6{
   -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
   -webkit-mask-position:center;mask-position:center;
 }
+
 c1{background:var(--grp-1);-webkit-mask-image:var(--qeel-carte-1);mask-image:var(--qeel-carte-1)}
 c2{background:var(--grp-2);-webkit-mask-image:var(--qeel-carte-2);mask-image:var(--qeel-carte-2)}
 c3{background:var(--grp-3);-webkit-mask-image:var(--qeel-carte-3);mask-image:var(--qeel-carte-3)}
