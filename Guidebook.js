@@ -98,7 +98,7 @@ const LIEUX = [
   { nom: "L'îlot aux fées", cat: "Petite île", x: 32.7, y: 15.0,
     images: ["https://i.pinimg.com/1200x/b1/39/48/b139486dac765bf60e7f0a43d3d04d2b.jpg",
 "https://i.pinimg.com/1200x/03/04/26/030426ec5cb6e6977ba653b7835948fd.jpg"], texte: "Bien que difficile d'accès en dehors des marées basses ou d'une traversée en kayak, le site attire les curieux pour son atmosphère féerique : des lièvres peu farouches y gambadent sans craindre l'humain, tandis que des oiseaux aux plumages rares viennent s'y abriter du vent. Le folklore local affirme que l'îlot est le refuge des fées.", lien: null },
-  { nom: "Phare Sirius", cat: "Nord de l'île", x: 46.4, y: 10.3,
+  { nom: "Phare de Sirius", cat: "Nord de l'île", x: 46.4, y: 10.3,
     images: ["https://i.pinimg.com/1200x/bb/21/42/bb2142ba856ea24b6a3a8dd49de2809a.jpg",
 "https://i.pinimg.com/736x/fc/5c/e5/fc5ce5a2373bbdb9777a7ec0542cfd09.jpg"], texte: "Tour massive en granit blanc juchée à la pointe septentrionale de l'île, ce phare centenaire est aujourd'hui désaffecté. Réputé très lourdement hanté par harpies et sirènes selon les histoires locales. Ses quartiers de gardien restent condamnés par des grilles rouillées et personne n'ose y passer la nuit.", lien: null },
   { nom: "Hameau des Hautes-Granges", cat: "Hameau", x: 51.2, y: 20.5,
